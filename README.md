@@ -2,7 +2,13 @@
 
 PC 브라우저에서 KTX 시간표를 따라 햇빛 방향을 계산합니다. HTML/CSS/JavaScript만 사용하는 정적 웹사이트이며 별도 계산 서버, Python 설치, 외부 CDN이 필요하지 않습니다. 업로드한 지도와 작업 파일은 브라우저에서만 처리합니다.
 
-## 실행
+## 웹사이트에서 바로 실행
+
+**[노선 일조 시뮬레이터 열기](https://megabyte-forge.github.io/railway-sunlight/)**
+
+PC 브라우저에서 위 주소에 접속하면 바로 사용할 수 있습니다. Python 설치나 명령어 실행은 필요하지 않습니다. 날짜·노선·방향·열차번호를 선택하면 해당 시간표에 따른 일조 방향을 계산합니다.
+
+## 로컬 개발용 실행
 
 이 폴더에서 다음 명령을 실행한 뒤 `http://127.0.0.1:8765/`를 엽니다.
 
@@ -14,14 +20,11 @@ python -m http.server 8765 --bind 127.0.0.1
 
 ## GitHub Pages 게시
 
-대상 저장소: `megabyte-forge/railway-sunlight`
+저장소: [megabyte-forge/railway-sunlight](https://github.com/megabyte-forge/railway-sunlight)
 
-1. `megabyte-forge` 계정으로 새 `railway-sunlight` 저장소를 만듭니다.
-2. **이 폴더 안의 파일과 assets 폴더**를 저장소 최상위에 올립니다. `index.html`이 저장소 최상위에 있어야 합니다.
-3. 저장소 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**, `main`, `/(root)`를 선택하고 저장합니다.
-4. 게시가 완료되면 `https://megabyte-forge.github.io/railway-sunlight/`에서 사용할 수 있습니다.
+GitHub Pages로 게시되어 있습니다. 게시 파일은 `main` 브랜치 루트의 `index.html`과 JS·CSS 파일, `assets` 폴더입니다. 변경 사항을 `main`에 push하면 GitHub Pages 배포 후 웹사이트에 반영됩니다.
 
-모든 파일 경로는 상대 경로이므로 GitHub Pages의 저장소 하위 주소에서도 동작합니다. 이 문서에 적힌 주소는 배포 예정 주소이며, 파일 업로드와 Pages 설정을 완료해야 접속할 수 있습니다.
+모든 파일 경로는 상대 경로이므로 GitHub Pages의 저장소 하위 주소에서도 동작합니다.
 
 ## 주요 기능
 
