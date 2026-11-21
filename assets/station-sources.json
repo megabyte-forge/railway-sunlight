@@ -1,0 +1,574 @@
+{
+  "sources": {
+    "korail_20240401": {
+      "title": "한국철도공사 역 위치 정보 2024-04-01",
+      "url": "https://www.data.go.kr/data/15127532/fileData.do",
+      "license": "이용허락범위 제한 없음"
+    },
+    "kr_20251127": {
+      "title": "국가철도공단 철도역 정보",
+      "url": "https://www.data.go.kr/data/15067652/fileData.do",
+      "license": "이용허락범위 제한 없음"
+    },
+    "wikipedia_coordinates": {
+      "title": "Wikipedia contributors: station coordinates",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
+      "note": "공개 좌표 수치 발췌. 역별 원문 URL 포함. 공공 CSV 누락/불일치 역 보완."
+    }
+  },
+  "stations": {
+    "가남": {
+      "lat": 37.197808,
+      "lon": 127.535789,
+      "source": "korail_20240401",
+      "source_name": "가남"
+    },
+    "감곡장호원": {
+      "lat": 37.1273,
+      "lon": 127.6349,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/감곡장호원역",
+      "checked": "2026-11-18",
+      "note": "공개 CSV의 좌표 불일치를 교차 확인하여 보완."
+    },
+    "강릉": {
+      "lat": 37.7645622,
+      "lon": 128.8994852,
+      "source": "korail_20240401",
+      "source_name": "강릉"
+    },
+    "경산": {
+      "lat": 35.819999,
+      "lon": 128.727745,
+      "source": "kr_20251127",
+      "source_name": "경산역"
+    },
+    "경주": {
+      "lat": 35.79876574,
+      "lon": 129.1387516,
+      "source": "korail_20240401",
+      "source_name": "신경주"
+    },
+    "계룡": {
+      "lat": 36.272439,
+      "lon": 127.265714,
+      "source": "kr_20251127",
+      "source_name": "계룡역"
+    },
+    "곡성": {
+      "lat": 35.283436,
+      "lon": 127.303795,
+      "source": "kr_20251127",
+      "source_name": "곡성역"
+    },
+    "공주": {
+      "lat": 36.332361,
+      "lon": 127.096778,
+      "source": "korail_20240401",
+      "source_name": "공주"
+    },
+    "광명": {
+      "lat": 37.420592,
+      "lon": 126.881594,
+      "source": "kr_20251127",
+      "source_name": "광명역"
+    },
+    "광주송정": {
+      "lat": 35.137783,
+      "lon": 126.791767,
+      "source": "kr_20251127",
+      "source_name": "광주송정역"
+    },
+    "구례구": {
+      "lat": 35.163483,
+      "lon": 127.452645,
+      "source": "kr_20251127",
+      "source_name": "구례구역",
+      "note": "다른 공개 CSV의 좌표 형식/값 불일치를 교차 확인하여 보완."
+    },
+    "구포": {
+      "lat": 35.2054413,
+      "lon": 128.9971076,
+      "source": "korail_20240401",
+      "source_name": "구포"
+    },
+    "김제": {
+      "lat": 35.793266,
+      "lon": 126.903852,
+      "source": "kr_20251127",
+      "source_name": "김제역"
+    },
+    "나주": {
+      "lat": 35.013988,
+      "lon": 126.717214,
+      "source": "kr_20251127",
+      "source_name": "나주역",
+      "note": "다른 공개 CSV의 좌표 형식/값 불일치를 교차 확인하여 보완."
+    },
+    "남원": {
+      "lat": 35.410791,
+      "lon": 127.360528,
+      "source": "kr_20251127",
+      "source_name": "남원역"
+    },
+    "논산": {
+      "lat": 36.20714967,
+      "lon": 127.0923195,
+      "source": "korail_20240401",
+      "source_name": "논산"
+    },
+    "단양": {
+      "lat": 36.973249,
+      "lon": 128.343616,
+      "source": "kr_20251127",
+      "source_name": "단양역"
+    },
+    "대전": {
+      "lat": 36.332269,
+      "lon": 127.434183,
+      "source": "kr_20251127",
+      "source_name": "대전역"
+    },
+    "동대구": {
+      "lat": 35.879012,
+      "lon": 128.626219,
+      "source": "kr_20251127",
+      "source_name": "동대구역"
+    },
+    "둔내": {
+      "lat": 37.510619,
+      "lon": 128.222225,
+      "source": "korail_20240401",
+      "source_name": "둔내"
+    },
+    "마산": {
+      "lat": 35.235919,
+      "lon": 128.577026,
+      "source": "kr_20251127",
+      "source_name": "마산역",
+      "note": "다른 공개 CSV의 좌표 형식/값 불일치를 교차 확인하여 보완."
+    },
+    "만종": {
+      "lat": 37.3563988,
+      "lon": 127.8969128,
+      "source": "kr_20251127",
+      "source_name": "만종역"
+    },
+    "목포": {
+      "lat": 34.791165,
+      "lon": 126.386415,
+      "source": "kr_20251127",
+      "source_name": "목포역"
+    },
+    "묵호": {
+      "lat": 37.5468825,
+      "lon": 129.1076845,
+      "source": "korail_20240401",
+      "source_name": "묵호"
+    },
+    "물금": {
+      "lat": 35.3071833,
+      "lon": 128.9853488,
+      "source": "korail_20240401",
+      "source_name": "물금"
+    },
+    "밀양": {
+      "lat": 35.4744457,
+      "lon": 128.7771466,
+      "source": "korail_20240401",
+      "source_name": "밀양"
+    },
+    "부산": {
+      "lat": 35.115242,
+      "lon": 129.042895,
+      "source": "kr_20251127",
+      "source_name": "부산역"
+    },
+    "부전": {
+      "lat": 35.164421,
+      "lon": 129.060169,
+      "source": "kr_20251127",
+      "source_name": "부전역"
+    },
+    "북울산": {
+      "lat": 35.6148171,
+      "lon": 129.3719574,
+      "source": "korail_20240401",
+      "source_name": "북울산"
+    },
+    "서대구": {
+      "lat": 35.881304,
+      "lon": 128.539901,
+      "source": "korail_20240401",
+      "source_name": "서대구"
+    },
+    "서대전": {
+      "lat": 36.32264061,
+      "lon": 127.4033177,
+      "source": "korail_20240401",
+      "source_name": "서대전"
+    },
+    "서울": {
+      "lat": 37.557863,
+      "lon": 126.969468,
+      "source": "kr_20251127",
+      "source_name": "서울역"
+    },
+    "서원주": {
+      "lat": 37.349082,
+      "lon": 127.839965,
+      "source": "korail_20240401",
+      "source_name": "서원주"
+    },
+    "수원": {
+      "lat": 37.266118,
+      "lon": 126.999941,
+      "source": "kr_20251127",
+      "source_name": "수원역"
+    },
+    "순천": {
+      "lat": 34.946606,
+      "lon": 127.500904,
+      "source": "kr_20251127",
+      "source_name": "순천역"
+    },
+    "안동": {
+      "lat": 36.57457563,
+      "lon": 128.6747619,
+      "source": "korail_20240401",
+      "source_name": "안동"
+    },
+    "앙성온천": {
+      "lat": 37.09222,
+      "lon": 127.7871,
+      "source": "korail_20240401",
+      "source_name": "앙성온천"
+    },
+    "여수엑스포": {
+      "lat": 34.748164,
+      "lon": 127.745746,
+      "source": "kr_20251127",
+      "source_name": "여수엑스포역"
+    },
+    "여천": {
+      "lat": 34.768147,
+      "lon": 127.659479,
+      "source": "kr_20251127",
+      "source_name": "여천역"
+    },
+    "영덕": {
+      "lat": 36.411157,
+      "lon": 129.377157,
+      "source": "korail_20240401",
+      "source_name": "영덕"
+    },
+    "영등포": {
+      "lat": 37.5161179,
+      "lon": 126.9069418,
+      "source": "korail_20240401",
+      "source_name": "영등포"
+    },
+    "영주": {
+      "lat": 36.81101017,
+      "lon": 128.625046,
+      "source": "korail_20240401",
+      "source_name": "영주"
+    },
+    "영천": {
+      "lat": 35.959184,
+      "lon": 128.940869,
+      "source": "kr_20251127",
+      "source_name": "영천역"
+    },
+    "오송": {
+      "lat": 36.621521,
+      "lon": 127.328793,
+      "source": "kr_20251127",
+      "source_name": "오송역"
+    },
+    "용산": {
+      "lat": 37.529567,
+      "lon": 126.963918,
+      "source": "kr_20251127",
+      "source_name": "용산역"
+    },
+    "울산": {
+      "lat": 35.5515794,
+      "lon": 129.1385479,
+      "source": "korail_20240401",
+      "source_name": "울산"
+    },
+    "원주": {
+      "lat": 37.315989,
+      "lon": 127.921874,
+      "source": "korail_20240401",
+      "source_name": "원주"
+    },
+    "의성": {
+      "lat": 36.353948,
+      "lon": 128.693497,
+      "source": "kr_20251127",
+      "source_name": "의성역"
+    },
+    "익산": {
+      "lat": 35.940719,
+      "lon": 126.946551,
+      "source": "kr_20251127",
+      "source_name": "익산역"
+    },
+    "장성": {
+      "lat": 35.299404,
+      "lon": 126.779848,
+      "source": "kr_20251127",
+      "source_name": "장성역"
+    },
+    "전주": {
+      "lat": 35.849552,
+      "lon": 127.161439,
+      "source": "kr_20251127",
+      "source_name": "전주역"
+    },
+    "정동진": {
+      "lat": 37.691093,
+      "lon": 129.033194,
+      "source": "kr_20251127",
+      "source_name": "정동진역"
+    },
+    "정읍": {
+      "lat": 35.575371,
+      "lon": 126.842753,
+      "source": "kr_20251127",
+      "source_name": "정읍역"
+    },
+    "제천": {
+      "lat": 37.128031,
+      "lon": 128.204342,
+      "source": "kr_20251127",
+      "source_name": "제천역"
+    },
+    "진부(오대산)": {
+      "lat": 37.642891,
+      "lon": 128.573885,
+      "source": "korail_20240401",
+      "source_name": "진부(오대산)"
+    },
+    "진영": {
+      "lat": 35.298602,
+      "lon": 128.7740326,
+      "source": "korail_20240401",
+      "source_name": "진영"
+    },
+    "진주": {
+      "lat": 35.15,
+      "lon": 128.11806,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/진주역",
+      "checked": "2026-11-18",
+      "note": "공개 CSV의 좌표 불일치를 교차 확인하여 보완."
+    },
+    "창원": {
+      "lat": 35.258459,
+      "lon": 128.60721,
+      "source": "kr_20251127",
+      "source_name": "창원역",
+      "note": "다른 공개 CSV의 좌표 형식/값 불일치를 교차 확인하여 보완."
+    },
+    "창원중앙": {
+      "lat": 35.2422624,
+      "lon": 128.7014842,
+      "source": "kr_20251127",
+      "source_name": "창원중앙역",
+      "note": "다른 공개 CSV의 좌표 형식/값 불일치를 교차 확인하여 보완."
+    },
+    "천안아산": {
+      "lat": 36.794613,
+      "lon": 127.104529,
+      "source": "kr_20251127",
+      "source_name": "천안아산역"
+    },
+    "청량리": {
+      "lat": 37.580543,
+      "lon": 127.047259,
+      "source": "korail_20240401",
+      "source_name": "청량리"
+    },
+    "충주": {
+      "lat": 36.9760489,
+      "lon": 127.9091488,
+      "source": "korail_20240401",
+      "source_name": "충주"
+    },
+    "태화강": {
+      "lat": 35.5397714,
+      "lon": 129.3538491,
+      "source": "kr_20251127",
+      "source_name": "태화강역"
+    },
+    "평창": {
+      "lat": 37.5620242,
+      "lon": 128.4292237,
+      "source": "korail_20240401",
+      "source_name": "평창"
+    },
+    "포항": {
+      "lat": 36.071865,
+      "lon": 129.341983,
+      "source": "korail_20240401",
+      "source_name": "포항"
+    },
+    "풍기": {
+      "lat": 36.888086,
+      "lon": 128.539104,
+      "source": "korail_20240401",
+      "source_name": "풍기"
+    },
+    "행신": {
+      "lat": 37.612139,
+      "lon": 126.834139,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/행신역",
+      "checked": "2026-11-18",
+      "note": "공개 CSV의 좌표 불일치를 교차 확인하여 보완."
+    },
+    "횡성": {
+      "lat": 37.4836479,
+      "lon": 128.0104433,
+      "source": "korail_20240401",
+      "source_name": "횡성"
+    },
+    "상봉": {
+      "lat": 37.5969776,
+      "lon": 127.0857994,
+      "source": "kr_20251127",
+      "source_name": "상봉역"
+    },
+    "덕소": {
+      "lat": 37.587005,
+      "lon": 127.208644,
+      "source": "kr_20251127",
+      "source_name": "덕소역"
+    },
+    "양평": {
+      "lat": 37.496011,
+      "lon": 127.49178,
+      "source": "kr_20251127",
+      "source_name": "양평역"
+    },
+    "동해": {
+      "lat": 37.498237,
+      "lon": 129.12391,
+      "source": "kr_20251127",
+      "source_name": "동해역"
+    },
+    "남창": {
+      "lat": 35.417332,
+      "lon": 129.283655,
+      "source": "kr_20251127",
+      "source_name": "남창역"
+    },
+    "기장": {
+      "lat": 35.240989,
+      "lon": 129.218172,
+      "source": "kr_20251127",
+      "source_name": "기장역"
+    },
+    "김천구미": {
+      "lat": 36.113482,
+      "lon": 128.180991,
+      "source": "korail_20240401",
+      "source_name": "김천(구미)"
+    },
+    "동탄": {
+      "lat": 37.201167,
+      "lon": 127.095111,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/Dongtan_station",
+      "checked": "2026-11-18"
+    },
+    "평택지제": {
+      "lat": 37.01889,
+      "lon": 127.07028,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/PyeongtaekJije_station",
+      "checked": "2026-11-18"
+    },
+    "신해운대": {
+      "lat": 35.181674,
+      "lon": 129.177087,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/Sinhaeundae_station",
+      "checked": "2026-11-18"
+    },
+    "센텀": {
+      "lat": 35.179167,
+      "lon": 129.124972,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/Centum_station",
+      "checked": "2026-11-18"
+    },
+    "판교(경기)": {
+      "lat": 37.394762,
+      "lon": 127.111137,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/Pangyo_station",
+      "checked": "2026-11-18"
+    },
+    "부발": {
+      "lat": 37.25989,
+      "lon": 127.48853,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://en.wikipedia.org/wiki/Bubal_station",
+      "checked": "2026-11-18"
+    },
+    "살미": {
+      "lat": 36.90222,
+      "lon": 127.96028,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/살미역",
+      "checked": "2026-11-18"
+    },
+    "수안보온천": {
+      "lat": 36.84139,
+      "lon": 128.00472,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/수안보온천역",
+      "checked": "2026-11-18"
+    },
+    "연풍": {
+      "lat": 36.78639,
+      "lon": 128.01806,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/연풍역_(괴산)",
+      "checked": "2026-11-18"
+    },
+    "문경": {
+      "lat": 36.71972,
+      "lon": 128.11083,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/문경역",
+      "checked": "2026-11-18"
+    },
+    "울진": {
+      "lat": 36.98278,
+      "lon": 129.395,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/울진역",
+      "checked": "2026-11-18"
+    },
+    "삼척": {
+      "lat": 37.4299278,
+      "lon": 129.178722,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/삼척역",
+      "checked": "2026-11-18"
+    },
+    "수서": {
+      "lat": 37.48694,
+      "lon": 127.10194,
+      "source": "wikipedia_coordinates",
+      "source_url": "https://ko.wikipedia.org/wiki/수서역",
+      "checked": "2026-11-18"
+    }
+  }
+}
